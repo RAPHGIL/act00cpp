@@ -24,8 +24,8 @@ using namespace std;
  */
 Entreprise::Entreprise() {
 
-	this->nomEntreprise = "anonyme";
-	this->villeEntreprise = "inconnu";
+	this->nomEntreprise = "SBV";
+	this->villeEntreprise = "Bignan";
 
 }
 
@@ -48,7 +48,7 @@ Entreprise::Entreprise(std::string nom, std::string ville) {
  */
 Entreprise::~Entreprise() {
 
-	cout << "Destrcution de l'entreprise " << this->nomEntreprise << " " << this->villeEntreprise << endl;
+	cout << "Destruction de l'entreprise " << this->nomEntreprise << " " << this->villeEntreprise << endl;
 
 }
 
