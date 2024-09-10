@@ -39,36 +39,3 @@ bash
 Copier le code
 ./presentation-stage
 Utilisation
-L'exécution du programme affichera les différentes étapes de création, modification, copie et affectation des objets Entreprise. Exemple de sortie attendue :
-
-text
-Copier le code
-Entreprise initiale : SBV, Bignan
-Entreprise après modification : SBV - Nouvelle, Nouveau Bignan
-Copie de l'entreprise : SBV - Nouvelle, Nouveau Bignan
-Entreprise après affectation : SBV - Nouvelle, Nouveau Bignan
-Destruction de l'entreprise SBV - Nouvelle située à Nouveau Bignan
-Destruction de l'entreprise SBV - Nouvelle située à Nouveau Bignan
-Destruction de l'entreprise SBV - Nouvelle située à Nouveau Bignan
-Structure du Projet
-main.cpp : Point d'entrée du programme qui crée et manipule des objets Entreprise.
-Entreprise.h et Entreprise.cpp : Définition et implémentation de la classe Entreprise.
-Mission.h et Mission.cpp : Définition et implémentation de la classe Mission.
-Auteurs
-Pierre : Développement et conception du projet.
-Raphael : Contributions sur la classe Mission.
-Contribuer
-Les contributions sont les bienvenues ! Pour contribuer, veuillez suivre ces étapes :
-
-Forker le projet
-Créer une nouvelle branche (git checkout -b feature/NouvelleFonctionnalite)
-Committer vos modifications (git commit -m 'Ajout d'une nouvelle fonctionnalité')
-Pousser sur la branche (git push origin feature/NouvelleFonctionnalite)
-Soumettre une Pull Request
-Licence
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
-
-go
-Copier le code
-
-Enregistrez ce contenu dans un fichier nommé `README.md` pour le rendre compatible avec les plateformes
