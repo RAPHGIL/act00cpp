@@ -24,11 +24,12 @@ Pour compiler et exécuter ce projet, vous devez disposer d'un compilateur C++ (
 
 ### Étapes d'installation
 
+## Installation
+
 1. **Cloner le dépôt :**
    ```bash
    git clone https://github.com/RAPHGIL/act00cpp.git
    cd act00cpp
-Compiler le projet :
 
 bash
 Copier le code
@@ -41,25 +42,15 @@ Copier le code
 Utilisation
 L'exécution du programme permet de créer une entreprise, de modifier ses attributs, de tester la copie d'une entreprise, et d'affecter une entreprise à une autre. Voici un exemple de sortie attendue :
 
-text
-Copier le code
-Entreprise initiale : SBV, Bignan
-Entreprise après modification : SBV - Nouvelle, Nouveau Bignan
-Entreprise copie : SBV - Nouvelle, Nouveau Bignan
-Entreprise après affectation : SBV - Nouvelle, Nouveau Bignan
-Destruction de l'entreprise SBV - Nouvelle située à Nouveau Bignan
-Destruction de l'entreprise SBV - Nouvelle située à Nouveau Bignan
-Destruction de l'entreprise SBV - Nouvelle située à Nouveau Bignan
-Structure du Projet
-main.cpp : Point d'entrée du programme qui crée et manipule des objets Entreprise.
-Entreprise.h et Entreprise.cpp : Définition et implémentation de la classe Entreprise.
-Mission.h et Mission.cpp : Définition et implémentation de la classe Mission.
-Informations sur l'Entreprise
-Nom : Société Bretonne de Volailles (SBV)
-Lieu : Bignan, France
-Service : Service Informatique
-Missions :
-Configuration et dépannage de postes pour les employés.
-Support client pour les utilisateurs internes.
-Auteur
-Raphael : Développement et conception du projet.
+## Informations sur l'Entreprise
+
+- **Nom** : Société Bretonne de Volailles (SBV)
+- **Lieu** : Bignan, France
+- **Service** : Service Informatique
+- **Missions** :
+  - Configuration et dépannage de postes pour les employés.
+  - Support client pour les utilisateurs internes.
+
+## Auteur
+
+- **Raphael** : Développement et conception du projet.
